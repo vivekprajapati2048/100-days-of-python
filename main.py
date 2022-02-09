@@ -1,26 +1,31 @@
-import turtle as t
-import random
+from turtle import Turtle, Screen
 
-tim = t.Turtle()
-t.colormode(255)
+tim = Turtle()
+screen = Screen()
 
-def random_color():
-    r = random.randint(0, 255)
-    g = random.randint(0, 255)
-    b = random.randint(0, 255)
-    return (r,g,b)
+# Etch a Sketch
 
-tim.speed("fastest")
+def move_forwards():
+    tim.forward(10)
 
-def draw_spirograph(size_of_gap):
-        
-    for _ in range(int(360 / size_of_gap)):
-        tim.color(random_color())
-        tim.circle(100)
-        tim.setheading(tim.heading() + size_of_gap)
-        
-        
-draw_spirograph(12)
+def move_backwards():
+    tim.backward(10)
+    
+def move_left():
+    tim.left(15)
+    
+def move_right():
+    tim.right(15)
 
-screen = t.Screen()
+def clear_screen():
+    tim.reset()
+
+
+screen.listen()
+screen.onkey(key="w", fun=move_forwards)
+screen.onkey(key="s", fun=move_backwards)
+screen.onkey(key="a", fun=move_left)
+screen.onkey(key="d", fun=move_right)
+screen.onkey(key="c", fun=clear_screen)
+
 screen.exitonclick()
