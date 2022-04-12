@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Dear [name],
 
 You are invited to my birthday this Saturday.
@@ -5,3 +6,12 @@ You are invited to my birthday this Saturday.
 Hope you can make it!
 
 Angela
+=======
+Dear [name],
+
+You are invited to my birthday this Saturday.
+
+Hope you can make it!
+
+Angela
+>>>>>>> 39c82ba7aaa6ae02617613a88dbea2552e39105c
