@@ -1,7 +1,7 @@
 # manually entered files
 venv
 notes.py
-
+__pycache__
 
 
 # Byte-compiled / optimized / DLL files
