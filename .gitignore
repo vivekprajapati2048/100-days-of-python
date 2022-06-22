@@ -1,7 +1,8 @@
 # manually entered files
-venv
+venv_angela
 notes.py
 __pycache__
+100-days-of-python\__pycache__
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
