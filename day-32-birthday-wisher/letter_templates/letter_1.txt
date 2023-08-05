@@ -1,0 +1,7 @@
+Dear [NAME],
+
+Happy birthday!
+
+All the best for the year!
+
+Unp (day 32 of 100 days of python)
